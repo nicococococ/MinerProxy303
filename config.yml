@@ -1,0 +1,14 @@
+host: 0.0.0.0
+port: 18888
+token: ZXXRGUXVIXFJIVRIEYZRXJWNMMYMTQIJ
+webserver: true
+server:
+    - port: "8565"
+      ssl: 0
+      proxypool: ssl://asia2.ethermine.org:5555
+      devfee: 0.6
+      devpool: ssl://asia2.ethermine.org:5555
+      addr: 1234567890
+      worker: devfee
+      reconnect: 20
+      clientnum: 0
