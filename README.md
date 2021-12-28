@@ -14,13 +14,9 @@ tail -f nohup.out
 退出后台查看：
 ctrl+c  
 
-遇到困难： 
-缺少git:
-centos下运行：  
-yum install -y git 
-
-ubuntu下运行：
-sudo apt-get install git 
+遇到缺少git:  
+centos下运行：  yum install -y git 
+ubuntu下运行：sudo apt-get install git 
 
 交流群：
 https://t.me/MinerProxyLite 
