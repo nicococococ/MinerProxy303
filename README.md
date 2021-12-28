@@ -15,7 +15,7 @@ tail -f nohup.out
 ctrl+c  
 
 遇到缺少git:  
-centos下运行：  yum install -y git 
+centos下运行：  yum install -y git  
 ubuntu下运行：sudo apt-get install git 
 
 交流群：
