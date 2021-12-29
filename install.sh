@@ -156,10 +156,11 @@ start_write_config() {
     echo
     echo "----------------------------------------------------------------"
     echo
-		if [[ "$changeLimit" = "y" ]]; then
-		  echo "系统连接数限制已经改了，如果第一次运行本程序需要重启"
-		  echo
-		fi
+	if [[ "$changeLimit" = "y" ]]; then
+	  echo "系统连接数限制已经改了，如果第一次运行本程序需要重启"
+	  echo
+	fi
+    supervisorctl reload
     echo "本机防火墙端口18888已经开放，如果还无法连接，请到云服务商控制台操作安全组，放行对应的端口"
     echo "请以访问本机IP:18888"
     echo
@@ -183,7 +184,7 @@ start_write_config() {
     echo "----------------------------------------------------------------"
     
     
-    supervisorctl reload
+    
 }
 
 
