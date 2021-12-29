@@ -195,9 +195,9 @@ while :; do
     echo
     echo "....... MinerProxyLite 一键安装脚本 ......."
     echo
-    echo " 1. 开启自动运行"
+    echo " 1. 开始安装 + 自动运行"
     echo
-    echo " 2. 关闭自动运行"
+    echo " 2. 停止 + 关闭自动运行"
     echo
     read -p "$(echo -e "请选择 [${magenta}1-2$none]:")" choose
     case $choose in
