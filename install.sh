@@ -101,21 +101,21 @@ start_write_config() {
     if [ -d "/etc/supervisor/conf/" ]; then
         rm /etc/supervisor/conf/MinerProxyLite.conf -f
         echo "[program:MinerProxyLite]" >>/etc/supervisor/conf/MinerProxyLite.conf
-        echo "command=${installPath}/MinerProxyLite" >>/etc/supervisor/conf/MinerProxyLite.conf
+        echo "command=${installPath}/MinerProxyLite>>log.txt" >>/etc/supervisor/conf/MinerProxyLite.conf
         echo "directory=${installPath}/" >>/etc/supervisor/conf/MinerProxyLite.conf
         echo "autostart=true" >>/etc/supervisor/conf/MinerProxyLite.conf
         echo "autorestart=true" >>/etc/supervisor/conf/MinerProxyLite.conf
     elif [ -d "/etc/supervisor/conf.d/" ]; then
         rm /etc/supervisor/conf.d/MinerProxyLite.conf -f
         echo "[program:MinerProxyLite]" >>/etc/supervisor/conf.d/MinerProxyLite.conf
-        echo "command=${installPath}/MinerProxyLite" >>/etc/supervisor/conf.d/MinerProxyLite.conf
+        echo "command=${installPath}/MinerProxyLite>>log.txt" >>/etc/supervisor/conf.d/MinerProxyLite.conf
         echo "directory=${installPath}/" >>/etc/supervisor/conf.d/MinerProxyLite.conf
         echo "autostart=true" >>/etc/supervisor/conf.d/MinerProxyLite.conf
         echo "autorestart=true" >>/etc/supervisor/conf.d/MinerProxyLite.conf
     elif [ -d "/etc/supervisord.d/" ]; then
         rm /etc/supervisord.d/MinerProxyLite.ini -f
         echo "[program:MinerProxyLite]" >>/etc/supervisord.d/MinerProxyLite.ini
-        echo "command=${installPath}/MinerProxyLite" >>/etc/supervisord.d/MinerProxyLite.ini
+        echo "command=${installPath}/MinerProxyLite>>log.txt" >>/etc/supervisord.d/MinerProxyLite.ini
         echo "directory=${installPath}/" >>/etc/supervisord.d/MinerProxyLite.ini
         echo "autostart=true" >>/etc/supervisord.d/MinerProxyLite.ini
         echo "autorestart=true" >>/etc/supervisord.d/MinerProxyLite.ini
