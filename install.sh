@@ -156,21 +156,20 @@ start_write_config() {
     echo
     echo "----------------------------------------------------------------"
     echo
-		if [[ "$changeLimit" = "y" ]]; then
-		  echo "系统连接数限制已经改了，如果第一次运行本程序需要重启"
-		  echo
-		fi
-    echo "本机防火墙端口188888已经开放，如果还无法连接，请到云服务商控制台操作安全组，放行对应的端口"
+	if [[ "$changeLimit" = "y" ]]; then
+	  echo "系统连接数限制已经改了，如果第一次运行本程序需要重启"
+	  echo
+	fi
+    echo "本机防火墙端口18888已经开放，如果还无法连接，请到云服务商控制台操作安全组，放行对应的端口"
+    echo "请用访问本机IP:18888"
     echo
     echo "安装完成...守护模式无日志，需要日志的请以nohup ./MinerProxyLite &方式运行"
-		echo
-		echo "以下配置文件：/etc/MinerProxyLite/config.yml，网页端可修改登录密码token"
+	echo
+	echo "以下配置文件：/etc/MinerProxyLite/config.yml，网页端可修改登录密码token"
     echo
     cat /etc/MinerProxyLite/config.yml
     echo
     echo "----------------------------------------------------------------"
-    
-    
     supervisorctl reload
 }
 
