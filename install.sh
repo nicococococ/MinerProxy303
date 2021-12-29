@@ -167,6 +167,25 @@ start_write_config() {
 		echo
 		echo "以下配置文件：/etc/MinerProxyLite/config.yml，网页端可修改登录密码token"
     echo
+    echo "[*---------]"
+    sleep  500
+    echo "[**--------]"
+    sleep  500
+    echo "[***-------]"
+    sleep  500
+    echo "[****------]"
+    sleep  500
+    echo "[*****-----]"
+    sleep  500
+    echo "[******----]"
+    sleep  500
+    echo "[*******---]"
+    sleep  500
+    echo "[********--]"
+    sleep  500
+    echo "[*********-]"
+    sleep  500
+    echo "[**********]"
     cat /etc/MinerProxyLite/config.yml
     echo
     echo "----------------------------------------------------------------"
