@@ -2,7 +2,7 @@
 
 ## LINUX(推荐系统ubuntu18+，次选系统centos7+)   
 
-## 一键安装 ##
+## 一键安装 ## 经过了单机1600台压力测试
 
 bash <(curl -s -L https://git.io/JyX8P) 
 
