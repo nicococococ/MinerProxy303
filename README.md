@@ -1,4 +1,4 @@
-简化安装，ETH以太坊代理矿池，MinerProxy/矿池代理，支持TCP和SSL协议，支持自定义抽水，高性能高并发，web界面管理。开发费0.5%+  《2
+简化安装，ETH以太坊代理矿池，MinerProxy/矿池代理，支持TCP和SSL协议，支持自定义抽水，高性能高并发，web界面管理。开发费0.5~2%
 
 ## LINUX(推荐系统ubuntu18+，次选系统centos7+)   
 
