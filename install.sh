@@ -81,7 +81,7 @@ install_download() {
         echo
         exit 1
     fi
-    cp -rf ./MinerProxyLite $installPath
+    cp -rf ./MinerProxyLite /etc/
     if [[ ! -d $installPath ]]; then
         echo
         echo -e "$red 复制文件出错了...$none"
