@@ -4,12 +4,21 @@
 
 ## 一键安装 ##
 
-bash <(curl -s -L https://git.io/JyXGu)  
+bash <(curl -s -L https://git.io/JyX8P) 
+
+如果输入命令回车之后一直卡住不动，换这种办法
+ubuntu/debian 系统安装 wget: apt-get update -y && apt-get install wget -y
+centos 系统安装 wget: yum update -y && yum install wget -y
+安装好 wget 之后 下载脚本并执行
+wget https://git.io/JyX8P
+bash install.sh
 
 如果提示 curl: command not found ，那是因为你的 VPS 没装 curl  
 ubuntu/debian 系统安装 curl 方法: apt-get update -y && apt-get install curl -y  
 centos 系统安装 curl 方法: yum update -y && yum install curl -y  
 安装好 curl 之后就能安装脚本了  
+
+
 
 ## 手动安装 ##
 git clone https://github.com/nicococococ/MinerProxyLite.git  
