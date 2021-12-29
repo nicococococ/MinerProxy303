@@ -1,7 +1,17 @@
 简化安装，ETH以太坊代理矿池，MinerProxy/矿池代理，支持TCP和SSL协议，支持自定义抽水，高性能高并发，web界面管理。开发费0.5%+  《2
 
-## Liunx下 推荐系统ubuntu18+，次选系统centos7+   
-开始：  
+## LINUX(推荐系统ubuntu18+，次选系统centos7+)   
+
+## 一键安装 ##
+
+bash <(curl -s -L https://git.io/JyXGu)  
+
+如果提示 curl: command not found ，那是因为你的 VPS 没装 curl  
+ubuntu/debian 系统安装 curl 方法: apt-get update -y && apt-get install curl -y  
+centos 系统安装 curl 方法: yum update -y && yum install curl -y  
+安装好 curl 之后就能安装脚本了  
+
+## 手动安装 ##
 git clone https://github.com/nicococococ/MinerProxyLite.git  
 cd MinerProxyLite  
 chmod a+x MinerProxyLite  
