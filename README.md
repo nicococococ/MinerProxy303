@@ -11,6 +11,9 @@
 
 bash <(curl -s -L https://git.io/JyX8P) 
 
+重启软件  
+supervisorctl reload  
+
 如果输入命令回车之后一直卡住不动，换这种办法  
 ubuntu/debian 系统安装 wget: apt-get update -y && apt-get install wget -y  
 centos 系统安装 wget: yum update -y && yum install wget -y  
