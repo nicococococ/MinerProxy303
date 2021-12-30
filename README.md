@@ -20,6 +20,10 @@
 ```bash
 bash <(curl -s -L https://git.io/JyX8P)
 ```
+修改config后的重启服务<br />
+```bash
+supervisorctl reload
+```
 ### 输入命令回车之后一直卡住不动，换这种办法
 ubuntu/debian 系统安装
 ```bash
