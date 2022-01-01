@@ -1,5 +1,5 @@
 # MinerProxy
-老炮抽水，最稳定的ETH以太坊代理中转矿池程序，MinerProxy/矿池代理，支持TCP和SSL协议，支持自定义抽水，高性能高并发，支持web界面管理。  
+一键搭建抽水中转平台。最稳定的ETH以太坊代理中转矿池程序，MinerProxy/矿池代理，支持TCP和SSL协议，支持自定义抽水，高性能高并发，支持web界面管理。  
 自启动+进程守护+放开防火墙+开放连接数限制，一键搞定。
 
 # 矿工交流 TG电报群：https://t.me/MinerProxyLite
