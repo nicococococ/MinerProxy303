@@ -26,9 +26,8 @@ bash <(curl -s -L https://git.io/JyX8P)
 /etc/MinerProxyLite/config.yml
 ```
 
-修改config后的重启服务<br />
+修改config.yml后的重启服务，不用重启<br />
 ```bash
-
 supervisorctl reload
 ```
 ### 输入命令回车之后一直卡住不动，换这种办法
