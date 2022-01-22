@@ -1,7 +1,8 @@
 # minerProxy go 3.0.3 原版稳定版  
 一键安装+开防火墙+改连接数+自启动守护  
 矿池代理，支持TCP和SSL协议，支持自定义抽水，高性能高并发，支持web界面管理。 
-
+    
+![(web页面.jpg](web页面.jpg)
 # Liunx一键安装
 
 需要root用户下运行，sudo -i 切换为root用户  
