@@ -72,5 +72,5 @@ webserver: true 开启web面板填：true 关闭填：false
 ```bigquery
 开发费:
 抽水 <= 20% : devfee = 0.3%
-抽水 >  20% ; devfee = 抽水
+抽水 >  20% : devfee = 抽水
 ```
