@@ -16,7 +16,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/CharIesOrz/minerProxy/master
 # Liunx管理页面
 
 访问您的 IP:18888    
-登录密码为token  
+登录密码为token值
 
 # Liunx配置文件
 ```bash
