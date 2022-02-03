@@ -24,11 +24,6 @@ token值可在/etc/minerProxy_web/config.yml中查看
 修改后重启守护：supervisorctl reload 
 
 
-# Liunx配置文件
-```bash
-您也可以修改/etc/minerProxy_web/config.yml后，输入supervisorctl reload以重启服务  
-```
-
 # Liunx一键安装方法二
 ```bash
 wget https://raw.githubusercontent.com/CharIesOrz/minerProxy/master/install.sh
