@@ -16,8 +16,8 @@ bash <(curl -s -L https://raw.githubusercontent.com/CharIesOrz/minerProxy/master
 
 # Liunx管理页面
 
-访问您的 IP:18888（建议修改其他端口以防止cc嗅探攻击。 ）
-登录密码为token值   
+访问您的 IP:18888(建议修改其他端口以防止cc嗅探攻击。)     
+token值可在/etc/minerProxy_web/config.yml中查看
 
  
 修改端口：vi /etc/minerProxy_web/config.yml  
