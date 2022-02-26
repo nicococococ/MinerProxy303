@@ -1,4 +1,4 @@
-# minerProxy mp303 原版稳定版  一键安装脚本
+# minerProxy303 一键安装脚本
 本仓库仅原版303的一键安装脚本，顺便加开防火墙+改连接数+自启动守护
 https://t.me/minerproxy303
 
